@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
-    <section className='grid md:grid-cols-2 text-white gap-4 my-10' id='contact'>
+    <section className='grid md:grid-cols-2 text-white gap-4 my-10' id='cfontact'>
     <div >
         <h3 className='text-4xl text-secondary-400 '>Lets Connect</h3>
         <p className='py-4 max-w-md'>
