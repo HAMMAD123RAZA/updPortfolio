@@ -11,6 +11,10 @@ import { SiMongodb } from "react-icons/si";
 import { DiBootstrap } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
 import { SiMui } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+
+
 
 const TAB_DATA = [
   {
@@ -20,40 +24,48 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
 <li class="flex items-center">
     <FaHtml5 class="mr-1 text-secondary-400"/> 
-    <span>Html</span>
+    <span className="text-xl">Html</span>
 </li>
 
 <li class="flex items-center">
     <FaCss3 class="mr-1 text-secondary-400"/> 
-    <span>Css</span>
+    <span className="text-xl">Css</span>
 </li>
 <li class="flex items-center">
     <TbBrandJavascript class="mr-1 text-secondary-400"/> 
-    <span>Javascript</span>
+    <span className="text-xl">Javascript</span>
 </li>
 <li class="flex items-center">
     <FaReact class="mr-1 text-secondary-400"/> 
-    <span>React</span>
+    <span className="text-xl">React</span>
 </li>
 <li class="flex items-center">
     <SiExpress class="mr-1 text-secondary-400"/> 
-    <span>Express</span>
+    <span className="text-xl">Express</span>
+</li>
+<li class="flex items-center">
+    <SiTypescript class="mr-1 text-secondary-400"/> 
+    <span className="text-xl">Typescript</span>
+</li>
+<li class="flex items-center">
+    <SiNextdotjs class="mr-1 text-secondary-400"/> 
+    <span className="text-xl">Next Js</span>
 </li>
         <li class="flex items-center">
     <SiMongodb class="mr-1 text-secondary-400"/> 
-    <span>MongoDb</span>
+    <span className="text-xl">MongoDb</span>
 </li>
 <li class="flex items-center">
     <DiBootstrap class="mr-1 text-secondary-400"/> 
-    <span>Bootstrap</span>
+    <span className="text-xl">Bootstrap</span>
 </li>
 <li class="flex items-center">
     <SiTailwindcss class="mr-1 text-secondary-400"/> 
-    <span>Tailwind</span>
+    <span className="text-xl">Tailwind</span>
 </li>
 <li class="flex items-center">
     <SiMui class="mr-2 text-secondary-400"/> 
-    <span>Mui</span>
+    <span className="text-xl">Mui</span>
 </li>
 
       </ul>
