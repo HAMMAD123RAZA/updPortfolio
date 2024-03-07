@@ -6,11 +6,11 @@ import { FaLinkedin } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
-      <section className='grid md:grid-cols-2 text-white gap-4 my-10' id='contact'>
+      <section className='grid md:grid-cols-2 text-white gap-4 my-10' id="contact">
         <div>
-          <h3 className='text-4xl text-secondary-400'>Let's Connect</h3>
+          <h3 className='text-4xl text-secondary-400'>Lets Connect</h3>
           <p className='py-4 max-w-md'>
-            Im currently looking for new opportunities, If one of these things excite you then reach inbox I'll try my best to get back to you!
+            Im currently looking for new opportunities, If one of these things excite you then reach inbox I will try my best to get back to you!
           </p>
           <div className='flex flex-row gap-2 text-5xl my-4'>
             <Link href="https://github.com/HAMMAD123RAZA" className='hover:text-secondary-400'>

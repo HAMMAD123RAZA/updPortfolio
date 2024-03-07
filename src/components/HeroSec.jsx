@@ -36,7 +36,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          A passionate frontend developer and been learning full stack with mern technologies ,Although my journey began without any formal experience. I've embarked on a path of constant learning and growth in the world of web development.
+          A passionate frontend developer and been learning full stack with mern technologies , Although my journey began without any formal experience. I have embarked on a path of constant learning and growth in the world of web development.
           </p>
           <div>
             <Link
