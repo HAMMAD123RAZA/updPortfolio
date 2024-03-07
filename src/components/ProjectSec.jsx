@@ -70,6 +70,15 @@ const projectsData = [
   },
   {
     id: 6,
+    title: "Gallery",
+    description: "Built a simple Gallery Web with mern technologies to enhance my backend skills. Used multer for file uploading",
+    image: "/images/projects/gallery.png",
+    tag: ["All", "Full Stack"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/Gallery-App.git",
+    previewUrl: "/",
+  },
+  {
+    id: 6,
     title: "Todo ",
     description: "Built using Html Css and Js. Provided a crud operation using Javascript",
     image: "/images/projects/todo.jpg",
