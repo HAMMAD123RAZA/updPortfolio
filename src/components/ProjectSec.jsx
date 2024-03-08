@@ -86,6 +86,16 @@ const projectsData = [
     gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
     previewUrl: "/",
   },
+  {
+    id: 6,
+    title: "News Web ",
+    description: "Built using Html Css and Js. Fetched data from an external api for each news",
+    image: "/images/projects/news.png",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/News-Web.git",
+    previewUrl: "/",
+  },
+  
 ];
 
 const ProjectsSection = () => {

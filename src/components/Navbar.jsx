@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl text-secondary-400 md:text-5xl  font-semibold"
+          className="text-2xl text-secondary-400 md:text-5xl font-semibold"
         >
           Hammad
         </Link>
