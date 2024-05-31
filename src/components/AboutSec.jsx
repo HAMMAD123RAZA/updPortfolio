@@ -13,6 +13,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiMui } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
+import { FaWordpressSimple } from "react-icons/fa";
 
 
 
@@ -23,51 +24,54 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
 <li class="flex items-center">
-    <FaHtml5 class="mr-1 text-secondary-400"/> 
+    <FaHtml5  class="mr-1 text-secondary-400"/> 
     <span className="text-xl">Html</span>
 </li>
 
 <li class="flex items-center">
-    <FaCss3 class="mr-1 text-secondary-400"/> 
+    <FaCss3  class="mr-1 text-secondary-400"/> 
     <span className="text-xl">Css</span>
 </li>
 <li class="flex items-center">
-    <TbBrandJavascript class="mr-1 text-secondary-400"/> 
+    <TbBrandJavascript  class="mr-1 text-secondary-400"/> 
     <span className="text-xl">Javascript</span>
 </li>
 <li class="flex items-center">
-    <FaReact class="mr-1 text-secondary-400"/> 
+    <FaReact  class="mr-1 text-secondary-400"/> 
     <span className="text-xl">React</span>
 </li>
 <li class="flex items-center">
-    <SiExpress class="mr-1 text-secondary-400"/> 
+    <SiExpress  class="mr-1 text-secondary-400"/> 
     <span className="text-xl">Express</span>
 </li>
 <li class="flex items-center">
-    <SiTypescript class="mr-1 text-secondary-400"/> 
+    <SiTypescript  class="mr-1 text-secondary-400"/> 
     <span className="text-xl">Typescript</span>
 </li>
 <li class="flex items-center">
-    <SiNextdotjs class="mr-1 text-secondary-400"/> 
+    <SiNextdotjs  class="mr-1 text-secondary-400"/> 
     <span className="text-xl">Next Js</span>
 </li>
         <li class="flex items-center">
-    <SiMongodb class="mr-1 text-secondary-400"/> 
+    <SiMongodb  class="mr-1 text-secondary-400"/> 
     <span className="text-xl">MongoDb</span>
 </li>
 <li class="flex items-center">
-    <DiBootstrap class="mr-1 text-secondary-400"/> 
+    <DiBootstrap  class="mr-1 text-secondary-400"/> 
     <span className="text-xl">Bootstrap</span>
 </li>
 <li class="flex items-center">
-    <SiTailwindcss class="mr-1 text-secondary-400"/> 
+    <SiTailwindcss  class="mr-1 text-secondary-400"/> 
     <span className="text-xl">Tailwind</span>
 </li>
 <li class="flex items-center">
     <SiMui class="mr-2 text-secondary-400"/> 
     <span className="text-xl">Mui</span>
 </li>
-
+<li class="flex items-center">
+    <FaWordpressSimple size={21 } class="mr-2 text-secondary-400"/> 
+    <span className="text-xl">Wordpress</span>
+</li>
       </ul>
     ),
   },
@@ -78,7 +82,6 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li className="mb-3">BSCS <br />SMIU, Karachi Pakistan</li>
         <li>Pre Engg <br />SM Sci Clg, Karachi Pakistan</li>
-
       </ul>
     ),
   },

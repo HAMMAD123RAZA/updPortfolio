@@ -8,9 +8,9 @@ const projectsData = [
   {
     id: 1,
     title: "Discord Clone",
-    description: "Cloned Ui of discord using tailwind ",
+    description: "Cloned discord UI using tailwind ",
     image: "/images/projects/discord.png",
-    tag: ["All", "Frontend React"],
+    tag: ["All", "React"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Discord-Clone.git",
     previewUrl: "/",
   },
@@ -19,14 +19,14 @@ const projectsData = [
     title: "Food Menu Web",
     description: "Catogarized Food items with filter methods and Fetched data by useEffect and used more react concepts to enhance react skills",
     image: "/images/projects/grocey.jpg",
-    tag: ["All", "Frontend React"],
+    tag: ["All", "React"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 3,
     title: "Blog Web",
-    description: "A Full Stack blog web .Provided authentication and used multer for file uploading built using mern technologies",
+    description: "A Full Stack blog web. Provided authentication and used multer for file uploading built using mern technologies",
     image: "/images/projects/mernProject.png",
     tag: ["All", "Full Stack"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Blog_App.git",
@@ -37,7 +37,7 @@ const projectsData = [
     title: "Sales Web",
     description: "Designed Sales website to enhance my frontend skills",
     image: "/images/projects/sales.png",
-    tag: ["All", "Frontend React"],
+    tag: ["All", "React"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Sales-Mui.git",
     previewUrl: "/",
   },
@@ -95,6 +95,15 @@ const projectsData = [
     gitUrl: "https://github.com/HAMMAD123RAZA/News-Web.git",
     previewUrl: "/",
   },
+  {
+    id: 7,
+    title: "Web Design ",
+    description: "Designed An Animated Web To enhance my react and tailwind skills",
+    image: "/images/projects/design.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/web-design.git",
+    previewUrl: "/",
+  },
   
 ];
 
@@ -129,8 +138,8 @@ const ProjectsSection = () => {
         />
                 <ProjectTag
           onClick={handleTagChange}
-          name="Frontend React"
-          isSelected={tag === "Frontend React"}
+          name="React"
+          isSelected={tag === "React"}
         />
                 <ProjectTag
           onClick={handleTagChange}
@@ -141,6 +150,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Frontend"
           isSelected={tag === "Frontend"}
+        />
+          <ProjectTag
+          onClick={handleTagChange}
+          name="Wordpress"
+          isSelected={tag === "Wordpress"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
