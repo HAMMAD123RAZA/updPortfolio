@@ -58,14 +58,14 @@ const projectsData = [
     title: "Bio Graphy",
     description: "Built completely using Bootstrap 5 and used Aos lib for animation ",
     image: "/images/projects/biography.jpg",
-    tag: ["All", "Frontend"],
+    tag: ["All", "HtmlCss"],
     gitUrl: "https://github.com/HAMMAD123RAZA/beans-bio.git",
     previewUrl: "https://beansbiography.netlify.app/home",
   },
   {
     id: 4,
     title: "Sales Web",
-    description: "Designed Sales website to enhance my frontend skills",
+    description: "Designed Sales website to enhance my HtmlCss skills",
     image: "/images/projects/sales.png",
     tag: ["All", "React"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Sales-Mui.git",
@@ -77,7 +77,7 @@ const projectsData = [
     title: "Budget Web",
     description: "Built using Html Css Js.In this budget web user can fix a date and add monthly expenses and can see overview and can also delete it . ",
     image: "/images/projects/budget.jpg",
-    tag: ["All", "Frontend"],
+    tag: ["All", "HtmlCss"],
     gitUrl: "https://github.com/HAMMAD123RAZA/budget.github.io.git",
     previewUrl: "/",
   },
@@ -104,7 +104,7 @@ const projectsData = [
     title: "Todo",
     description: "Built using Html Css and Js. Provided a crud operation using Javascript",
     image: "/images/projects/todo.jpg",
-    tag: ["All", "Frontend"],
+    tag: ["All", "HtmlCss"],
     gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
     previewUrl: "/",
   },
@@ -113,7 +113,7 @@ const projectsData = [
     title: "News Web ",
     description: "Built using Html Css and Js. Fetched data from an external api for each news",
     image: "/images/projects/news.png",
-    tag: ["All", "Frontend"],
+    tag: ["All", "HtmlCss"],
     gitUrl: "https://github.com/HAMMAD123RAZA/News-Web.git",
     previewUrl: "/",
   },
@@ -173,8 +173,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Frontend"
-          isSelected={tag === "Frontend"}
+          name="HtmlCss"
+          isSelected={tag === "HtmlCss"}
         />
           <ProjectTag
           onClick={handleTagChange}
