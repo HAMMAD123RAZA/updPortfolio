@@ -30,7 +30,6 @@ const projectsData = [
     image: "/images/projects/animatedwp.png",
     tag: ["All", "Wordpress"],
     gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
-
     previewUrl:"https://practiceproject.wuaze.com/",
   },
 
