@@ -6,6 +6,15 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
+    id: 8,
+    title: "Woocommerce Wordpress ",
+    description: "Created a Wordpress ecommerce  website with Woocommerce plugin ",
+    image: "/images/projects/ecomm.png",
+    tag: ["All", "Wordpress"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
+    previewUrl: "http://hammadraza.lovestoblog.com/",
+  },
+  {
     id: 1,
     title: "Discord Clone",
     description: "Cloned discord UI using tailwind ",
@@ -13,6 +22,26 @@ const projectsData = [
     tag: ["All", "React"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Discord-Clone.git",
     previewUrl: "/",
+  },
+  {
+    id: 10,
+    title: "Animated  ",
+    description: "An animated Wordpress website with good looking UI Provided using Elementor ",
+    image: "/images/projects/animatedwp.png",
+    tag: ["All", "Wordpress"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
+
+    previewUrl:"https://practiceproject.wuaze.com/",
+  },
+
+  {
+    id: 9,
+    title: "Ecommerce Mobile Store",
+    description: "Created a mobile selling ecommerce website with Woocommerce plugin ",
+    image: "/images/projects/mobile.png",
+    tag: ["All", "Wordpress"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
+    previewUrl: "http://designprac.infinityfreeapp.com/",
   },
   {
     id: 2,
@@ -23,14 +52,16 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
+
+ 
   {
-    id: 3,
-    title: "Blog Web",
-    description: "A Full Stack blog web. Provided authentication and used multer for file uploading built using mern technologies",
-    image: "/images/projects/mernProject.png",
-    tag: ["All", "Full Stack"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/Blog_App.git",
-    previewUrl: "/",
+    id: 5,
+    title: "Bio Graphy",
+    description: "Built completely using Bootstrap 5 and used Aos lib for animation ",
+    image: "/images/projects/biography.jpg",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/beans-bio.git",
+    previewUrl: "https://beansbiography.netlify.app/home",
   },
   {
     id: 4,
@@ -41,15 +72,7 @@ const projectsData = [
     gitUrl: "https://github.com/HAMMAD123RAZA/Sales-Mui.git",
     previewUrl: "/",
   },
-  {
-    id: 5,
-    title: "Bio Graphy",
-    description: "Built completely using Bootstrap 5 and used Aos lib for animation ",
-    image: "/images/projects/biography.jpg",
-    tag: ["All", "Frontend"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/beans-bio.git",
-    previewUrl: "/",
-  },
+  
   {
     id: 6,
     title: "Budget Web",
@@ -79,7 +102,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Todo ",
+    title: "Todo",
     description: "Built using Html Css and Js. Provided a crud operation using Javascript",
     image: "/images/projects/todo.jpg",
     tag: ["All", "Frontend"],
@@ -102,8 +125,11 @@ const projectsData = [
     image: "/images/projects/design.png",
     tag: ["All", "React"],
     gitUrl: "https://github.com/HAMMAD123RAZA/web-design.git",
-    previewUrl: "/",
+    previewUrl: "https://web-design-henna.vercel.app/",
   },
+ 
+  
+  
   
 ];
 
