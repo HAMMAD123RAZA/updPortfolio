@@ -86,7 +86,7 @@ const projectsData = [
     title: "ArtShop",
     description: "An Ecommerce Artshop. Provided authentication , pagination , Add to cart functionality and Admin Dashboard with sanity.Built using mern technologies ",
     image: "/images/projects/Artshop.png",
-    tag: ["All", "Full Stack"],
+    tag: ["All", "FullStack"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Ecommerce-Artshope.git",
     previewUrl: "/",
   },
@@ -95,7 +95,7 @@ const projectsData = [
     title: "Gallery",
     description: "Built a simple Gallery Web with mern technologies to enhance my backend skills. Used multer for file uploading",
     image: "/images/projects/gallery.png",
-    tag: ["All", "Full Stack"],
+    tag: ["All", "FullStack"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Gallery-App.git",
     previewUrl: "/",
   },
@@ -126,10 +126,7 @@ const projectsData = [
     gitUrl: "https://github.com/HAMMAD123RAZA/web-design.git",
     previewUrl: "https://web-design-henna.vercel.app/",
   },
- 
-  
-  
-  
+
 ];
 
 const ProjectsSection = () => {
@@ -168,8 +165,8 @@ const ProjectsSection = () => {
         />
                 <ProjectTag
           onClick={handleTagChange}
-          name="Full Stack"
-          isSelected={tag === "Full Stack"}
+          name="FullStack"
+          isSelected={tag === "FullStack"}
         />
         <ProjectTag
           onClick={handleTagChange}
