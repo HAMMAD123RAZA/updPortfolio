@@ -100,6 +100,15 @@ const projectsData = [
     previewUrl: "/",
   },
   {
+    id: 7,
+    title: "Blog",
+    description: "Built a Full Stack  Blog Web  with mern technologies . Provided Crud operation and authentication  to enhance my backend skills. Used multer for file uploading",
+    image: "/images/projects/mernProject.png",
+    tag: ["All", "FullStack"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/blogApp.git",
+    previewUrl: "/",
+  },
+  {
     id: 6,
     title: "Todo",
     description: "Built using Html Css and Js. Provided a crud operation using Javascript",
@@ -109,7 +118,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 6,
+    id: 10,
     title: "News Web ",
     description: "Built using Html Css and Js. Fetched data from an external api for each news",
     image: "/images/projects/news.png",
