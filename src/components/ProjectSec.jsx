@@ -135,6 +135,24 @@ const projectsData = [
     gitUrl: "https://github.com/HAMMAD123RAZA/web-design.git",
     previewUrl: "https://web-design-henna.vercel.app/",
   },
+  {
+    id: 8,
+    title: "Dropify",
+    description: "Water Management System using Mysql Express  React and Node js Provided authentication  , Add to cart functionality and filtered out the categories , Request Product funtionality via email ",
+    image: "/images/projects/drop.png",
+    tag: ["All", "FullStack"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/Dropify.git",
+    previewUrl: "/",
+  },
+  {
+    id: 9,
+    title: "Survey Form Generator ",
+    description: "Built using Mongodb  Express  React and Node js Where user can enter question and choices . Entered question and choices will be appeared by clicking on view ",
+    image: "/images/projects/survey.png",
+    tag: ["All", "FullStack"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/survey-form-generator-.git",
+    previewUrl: "/",
+  },
 
 ];
 
