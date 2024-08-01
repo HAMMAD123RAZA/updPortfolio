@@ -52,7 +52,6 @@ const projectsData = [
     previewUrl: "/",
   },
 
- 
   {
     id: 5,
     title: "Bio Graphy",
@@ -117,15 +116,15 @@ const projectsData = [
     gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
     previewUrl: "/",
   },
-  {
-    id: 10,
-    title: "News Web ",
-    description: "Built using Html Css and Js. Fetched data from an external api for each news",
-    image: "/images/projects/news.png",
-    tag: ["All", "HtmlCss"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/News-Web.git",
-    previewUrl: "/",
-  },
+  // {
+  //   id: 10,
+  //   title: "News Web ",
+  //   description: "Built using Html Css and Js. Fetched data from an external api for each news",
+  //   image: "/images/projects/news.png",
+  //   tag: ["All", "HtmlCss"],
+  //   gitUrl: "https://github.com/HAMMAD123RAZA/News-Web.git",
+  //   previewUrl: "/",
+  // },
   {
     id: 7,
     title: "Web Design ",
@@ -151,6 +150,15 @@ const projectsData = [
     image: "/images/projects/survey.png",
     tag: ["All", "FullStack"],
     gitUrl: "https://github.com/HAMMAD123RAZA/survey-form-generator-.git",
+    previewUrl: "/",
+  },
+  {
+    id: 11,
+    title: "News Web ",
+    description: "Built using React Tailwind css and did api integration using news api . Provided pagination and search functionality and categorized all the news in nav menu ",
+    image: "/images/projects/kha.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/NewsWeb-with-react-.git",
     previewUrl: "/",
   },
 
