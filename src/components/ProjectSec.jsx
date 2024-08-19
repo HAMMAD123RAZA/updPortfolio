@@ -70,14 +70,14 @@ const projectsData = [
     gitUrl: "https://github.com/HAMMAD123RAZA/Sales-Mui.git",
     previewUrl: "/",
   },
-  
+
   {
-    id: 6,
-    title: "Budget Web",
-    description: "Built using Html Css Js.In this budget web user can fix a date and add monthly expenses and can see overview and can also delete it . ",
-    image: "/images/projects/budget.jpg",
-    tag: ["All", "HtmlCss"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/budget.github.io.git",
+    id: 11,
+    title: "News Web ",
+    description: "Built using React Tailwind css and did api integration using news api . Provided pagination and search functionality and categorized all the news in nav menu ",
+    image: "/images/projects/kha.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/NewsWeb-with-react-.git",
     previewUrl: "/",
   },
   {
@@ -89,6 +89,34 @@ const projectsData = [
     gitUrl: "https://github.com/HAMMAD123RAZA/Ecommerce-Artshope.git",
     previewUrl: "/",
   },
+   {
+    id: 7,
+    title: "Blog",
+    description: "Built a Full Stack  Blog Web  with mern technologies . Provided Crud operation and authentication  to enhance my backend skills. Used multer for file uploading",
+    image: "/images/projects/mernProject.png",
+    tag: ["All", "FullStack"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/blogApp.git",
+    previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "Budget Web",
+    description: "Built using Html Css Js.In this budget web user can fix a date and add monthly expenses and can see overview and can also delete it . ",
+    image: "/images/projects/budget.jpg",
+    tag: ["All", "HtmlCss"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/budget.github.io.git",
+    previewUrl: "/",
+  },
+  {
+    id: 8,
+    title: "Dropify",
+    description: "Water Management System using Mysql Express  React and Node js Provided authentication  , Add to cart functionality and filtered out the categories , Request Product funtionality via email ",
+    image: "/images/projects/drop.png",
+    tag: ["All", "FullStack"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/Dropify.git",
+    previewUrl: "/",
+  },
+
   {
     id: 6,
     title: "Gallery",
@@ -98,15 +126,7 @@ const projectsData = [
     gitUrl: "https://github.com/HAMMAD123RAZA/Gallery-App.git",
     previewUrl: "/",
   },
-  {
-    id: 7,
-    title: "Blog",
-    description: "Built a Full Stack  Blog Web  with mern technologies . Provided Crud operation and authentication  to enhance my backend skills. Used multer for file uploading",
-    image: "/images/projects/mernProject.png",
-    tag: ["All", "FullStack"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/blogApp.git",
-    previewUrl: "/",
-  },
+ 
   {
     id: 6,
     title: "Todo",
@@ -135,15 +155,6 @@ const projectsData = [
     previewUrl: "https://web-design-henna.vercel.app/",
   },
   {
-    id: 8,
-    title: "Dropify",
-    description: "Water Management System using Mysql Express  React and Node js Provided authentication  , Add to cart functionality and filtered out the categories , Request Product funtionality via email ",
-    image: "/images/projects/drop.png",
-    tag: ["All", "FullStack"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/Dropify.git",
-    previewUrl: "/",
-  },
-  {
     id: 9,
     title: "Survey Form Generator ",
     description: "Built using Mongodb  Express  React and Node js Where user can enter question and choices . Entered question and choices will be appeared by clicking on view ",
@@ -152,15 +163,7 @@ const projectsData = [
     gitUrl: "https://github.com/HAMMAD123RAZA/survey-form-generator-.git",
     previewUrl: "/",
   },
-  {
-    id: 11,
-    title: "News Web ",
-    description: "Built using React Tailwind css and did api integration using news api . Provided pagination and search functionality and categorized all the news in nav menu ",
-    image: "/images/projects/kha.png",
-    tag: ["All", "React"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/NewsWeb-with-react-.git",
-    previewUrl: "/",
-  },
+ 
 
 ];
 
