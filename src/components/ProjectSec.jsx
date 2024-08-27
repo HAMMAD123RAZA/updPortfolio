@@ -14,15 +14,7 @@ const projectsData = [
     gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
     previewUrl: "http://hammadraza.lovestoblog.com/",
   },
-  {
-    id: 1,
-    title: "Discord Clone",
-    description: "Cloned discord UI using tailwind ",
-    image: "/images/projects/discord.png",
-    tag: ["All", "React"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/Discord-Clone.git",
-    previewUrl: "/",
-  },
+ 
   {
     id: 10,
     title: "Animated  ",
@@ -60,6 +52,24 @@ const projectsData = [
     tag: ["All", "HtmlCss"],
     gitUrl: "https://github.com/HAMMAD123RAZA/beans-bio.git",
     previewUrl: "https://beansbiography.netlify.app/home",
+  },
+  {
+    id: 7,
+    title: "Web Design ",
+    description: "Designed An Animated Web To enhance my react and tailwind skills",
+    image: "/images/projects/design.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/web-design.git",
+    previewUrl: "https://web-design-henna.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "Discord Clone",
+    description: "Cloned discord UI using tailwind ",
+    image: "/images/projects/discord.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/Discord-Clone.git",
+    previewUrl: "/",
   },
   {
     id: 4,
@@ -127,15 +137,7 @@ const projectsData = [
     previewUrl: "/",
   },
  
-  {
-    id: 6,
-    title: "Todo",
-    description: "Built using Html Css and Js. Provided a crud operation using Javascript",
-    image: "/images/projects/todo.jpg",
-    tag: ["All", "HtmlCss"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
-    previewUrl: "/",
-  },
+ 
   // {
   //   id: 10,
   //   title: "News Web ",
@@ -145,15 +147,7 @@ const projectsData = [
   //   gitUrl: "https://github.com/HAMMAD123RAZA/News-Web.git",
   //   previewUrl: "/",
   // },
-  {
-    id: 7,
-    title: "Web Design ",
-    description: "Designed An Animated Web To enhance my react and tailwind skills",
-    image: "/images/projects/design.png",
-    tag: ["All", "React"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/web-design.git",
-    previewUrl: "https://web-design-henna.vercel.app/",
-  },
+  
   {
     id: 9,
     title: "Survey Form Generator ",
