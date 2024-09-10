@@ -34,15 +34,6 @@ const projectsData = [
     gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
     previewUrl: "http://designprac.infinityfreeapp.com/",
   },
-  {
-    id: 2,
-    title: "Food Menu Web",
-    description: "Catogarized Food items with filter methods and Fetched data by useEffect and used more react concepts to enhance react skills",
-    image: "/images/projects/grocey.jpg",
-    tag: ["All", "React"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
 
   {
     id: 5,
