@@ -17,7 +17,7 @@ const projectsData = [
  
   {
     id: 10,
-    title: "Animated  ",
+    title: "Animated",
     description: "An animated Wordpress website with good looking UI Provided using Elementor ",
     image: "/images/projects/animatedwp.png",
     tag: ["All", "Wordpress"],
@@ -56,7 +56,7 @@ const projectsData = [
   {
     id: 1,
     title: "Discord Clone",
-    description: "Cloned discord UI using tailwind ",
+    description: "Cloned discord UI using react js,tailwind",
     image: "/images/projects/discord.png",
     tag: ["All", "React"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Discord-Clone.git",
@@ -65,7 +65,7 @@ const projectsData = [
   {
     id: 4,
     title: "Sales Web",
-    description: "Designed Sales website to enhance my HtmlCss skills",
+    description: "Developed Sales website using react js,Material Ui ",
     image: "/images/projects/sales.png",
     tag: ["All", "React"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Sales-Mui.git",
