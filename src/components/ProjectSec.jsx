@@ -17,7 +17,7 @@ const projectsData = [
  
   // {
   //   id: 10,
-  //   title: "Animated",
+  //   title: "Animated",git 
   //   description: "An animated Wordpress website with good looking UI Provided using Elementor ",
   //   image: "/images/projects/animatedwp.png",
   //   tag: ["All", "Wordpress"],
