@@ -10,30 +10,30 @@ const projectsData = [
     title: "Woocommerce Wordpress ",
     description: "Created a Wordpress ecommerce  website with Woocommerce plugin ",
     image: "/images/projects/ecomm.png",
-    tag: ["All", "Wordpress"],
+    tag: ["All", "FullStack"],
     gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
     previewUrl: "http://hammadraza.lovestoblog.com/",
   },
  
-  {
-    id: 10,
-    title: "Animated",
-    description: "An animated Wordpress website with good looking UI Provided using Elementor ",
-    image: "/images/projects/animatedwp.png",
-    tag: ["All", "Wordpress"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
-    previewUrl:"https://practiceproject.wuaze.com/",
-  },
+  // {
+  //   id: 10,
+  //   title: "Animated",
+  //   description: "An animated Wordpress website with good looking UI Provided using Elementor ",
+  //   image: "/images/projects/animatedwp.png",
+  //   tag: ["All", "Wordpress"],
+  //   gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
+  //   previewUrl:"https://practiceproject.wuaze.com/",
+  // },
 
-  {
-    id: 9,
-    title: "Ecommerce Mobile Store",
-    description: "Created a mobile selling ecommerce website with Woocommerce plugin ",
-    image: "/images/projects/mobile.png",
-    tag: ["All", "Wordpress"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
-    previewUrl: "http://designprac.infinityfreeapp.com/",
-  },
+  // {
+  //   id: 9,
+  //   title: "Ecommerce Mobile Store",
+  //   description: "Created a mobile selling ecommerce website with Woocommerce plugin ",
+  //   image: "/images/projects/mobile.png",
+  //   tag: ["All", "Wordpress"],
+  //   gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
+  //   previewUrl: "http://designprac.infinityfreeapp.com/",
+  // },
 
   {
     id: 5,
@@ -195,11 +195,6 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="HtmlCss"
           isSelected={tag === "HtmlCss"}
-        />
-          <ProjectTag
-          onClick={handleTagChange}
-          name="Wordpress"
-          isSelected={tag === "Wordpress"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

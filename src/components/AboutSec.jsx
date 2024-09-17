@@ -50,7 +50,7 @@ const TAB_DATA = [
 </li>
 <li class="flex items-center">
     <SiNextdotjs  class="mr-1 text-secondary-400"/> 
-    <span className="text-xl">Next Js</span>
+    <span className="text-xl">React Native</span>
 </li>
         <li class="flex items-center">
     <SiMongodb  class="mr-1 text-secondary-400"/> 
