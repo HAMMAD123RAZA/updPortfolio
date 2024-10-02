@@ -54,14 +54,81 @@ const projectsData = [
     previewUrl: "https://web-design-henna.vercel.app/",
   },
   {
-    id: 1,
-    title: "Discord Clone",
-    description: "Cloned discord UI using react js,tailwind",
-    image: "/images/projects/discord.png",
-    tag: ["All", "React"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/Discord-Clone.git",
+    id: 8,
+    title: "Business Family (React Native App )",
+    description: "Business Family an application where u can create post in every domain of business like tech , shopping , law , dairy , machines etcTechnologies that were used React native expo , Firebase Native wind (UI) ,  Flat icons , Firebase (Auth) ",
+    image: "/images/projects/bussiness.png",
+    tag: ["All", "React Native"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/BusinessApp-expo.git",
     previewUrl: "/",
   },
+
+  {
+    id: 8,
+    title: "Dropify  (FullStack)",
+    description: "Water Management System using Mysql Express  React and Node js Provided authentication  , Add to cart functionality and filtered out the categories , Request Product funtionality via email ",
+    image: "/images/projects/drop.png",
+    tag: ["All", "FullStack"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/Dropify.git",
+    previewUrl: "/",
+  },
+  {
+    id: 8,
+    title: "Meals List  (React Native App )",
+    description: "A recipe application.where an admin can create recipes on admin side and user can explore them . I've categorized each of the meals . Technologies that were used React native expo ,Firebase ,Native wind (UI) , Flat icons , firebase auth",
+    image: "/images/projects/Meal.png",
+    tag: ["All", "React Native"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/Recipe_Provider_App.git",
+    previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "ArtShop (FullStack)",
+    description: "An Ecommerce Artshop. Provided authentication , pagination , Add to cart functionality and Admin Dashboard with sanity.Built using mern technologies ",
+    image: "/images/projects/Artshop.png",
+    tag: ["All", "FullStack"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/Ecommerce-Artshope.git",
+    previewUrl: "/",
+  },
+  //  {
+  //   id: 7,
+  //   title: "Blog",
+  //   description: "Built a Full Stack  Blog Web  with mern technologies . Provided Crud operation and authentication  to enhance my backend skills. Used multer for file uploading",
+  //   image: "/images/projects/mernProject.png",
+  //   tag: ["All", "FullStack"],
+  //   gitUrl: "https://github.com/HAMMAD123RAZA/blogApp.git",
+  //   previewUrl: "/",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Budget Web",
+  //   description: "Built using Html Css Js.In this budget web user can fix a date and add monthly expenses and can see overview and can also delete it . ",
+  //   image: "/images/projects/budget.jpg",
+  //   tag: ["All", "HtmlCss"],
+  //   gitUrl: "https://github.com/HAMMAD123RAZA/budget.github.io.git",
+  //   previewUrl: "/",
+  // },
+
+  // {
+  //   id: 6,
+  //   title: "Gallery",
+  //   description: "Built a simple Gallery Web with mern technologies to enhance my backend skills. Used multer for file uploading",
+  //   image: "/images/projects/gallery.png",
+  //   tag: ["All", "FullStack"],
+  //   gitUrl: "https://github.com/HAMMAD123RAZA/Gallery-App.git",
+  //   previewUrl: "/",
+  // },
+ 
+ 
+  // {
+  //   id: 10,
+  //   title: "News Web ",
+  //   description: "Built using Html Css and Js. Fetched data from an external api for each news",
+  //   image: "/images/projects/news.png",
+  //   tag: ["All", "HtmlCss"],
+  //   gitUrl: "https://github.com/HAMMAD123RAZA/News-Web.git",
+  //   previewUrl: "/",
+  // },
   {
     id: 4,
     title: "Sales Web",
@@ -82,66 +149,18 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 6,
-    title: "ArtShop",
-    description: "An Ecommerce Artshop. Provided authentication , pagination , Add to cart functionality and Admin Dashboard with sanity.Built using mern technologies ",
-    image: "/images/projects/Artshop.png",
-    tag: ["All", "FullStack"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/Ecommerce-Artshope.git",
-    previewUrl: "/",
-  },
-   {
-    id: 7,
-    title: "Blog",
-    description: "Built a Full Stack  Blog Web  with mern technologies . Provided Crud operation and authentication  to enhance my backend skills. Used multer for file uploading",
-    image: "/images/projects/mernProject.png",
-    tag: ["All", "FullStack"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/blogApp.git",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Budget Web",
-    description: "Built using Html Css Js.In this budget web user can fix a date and add monthly expenses and can see overview and can also delete it . ",
-    image: "/images/projects/budget.jpg",
-    tag: ["All", "HtmlCss"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/budget.github.io.git",
-    previewUrl: "/",
-  },
-  {
-    id: 8,
-    title: "Dropify",
-    description: "Water Management System using Mysql Express  React and Node js Provided authentication  , Add to cart functionality and filtered out the categories , Request Product funtionality via email ",
-    image: "/images/projects/drop.png",
-    tag: ["All", "FullStack"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/Dropify.git",
+    id: 1,
+    title: "Discord Clone",
+    description: "Cloned discord UI using react js,tailwind",
+    image: "/images/projects/discord.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/Discord-Clone.git",
     previewUrl: "/",
   },
 
   {
-    id: 6,
-    title: "Gallery",
-    description: "Built a simple Gallery Web with mern technologies to enhance my backend skills. Used multer for file uploading",
-    image: "/images/projects/gallery.png",
-    tag: ["All", "FullStack"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/Gallery-App.git",
-    previewUrl: "/",
-  },
- 
- 
-  // {
-  //   id: 10,
-  //   title: "News Web ",
-  //   description: "Built using Html Css and Js. Fetched data from an external api for each news",
-  //   image: "/images/projects/news.png",
-  //   tag: ["All", "HtmlCss"],
-  //   gitUrl: "https://github.com/HAMMAD123RAZA/News-Web.git",
-  //   previewUrl: "/",
-  // },
-  
-  {
     id: 9,
-    title: "Survey Form Generator ",
+    title: "Survey Form Generator (FullStack) ",
     description: "Built using Mongodb  Express  React and Node js Where user can enter question and choices . Entered question and choices will be appeared by clicking on view ",
     image: "/images/projects/survey.png",
     tag: ["All", "FullStack"],
@@ -173,9 +192,9 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-secondary-400 mt-4 mb-8 md:mb-12">
-        My Projects
+Portfolio Work
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      {/* <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
           name="All"
@@ -196,7 +215,7 @@ const ProjectsSection = () => {
           name="HtmlCss"
           isSelected={tag === "HtmlCss"}
         />
-      </div>
+      </div> */}
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
