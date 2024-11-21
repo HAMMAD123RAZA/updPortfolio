@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import Modal from '../components/Modal'
 
-const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
+const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, videoUrl }) => {
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => setShowModal(true);
+  const closeModal = () => setShowModal(false);
+
   return (
     <div>
       <div
@@ -27,7 +33,16 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
       <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
         <p className="text-[#ADB7BE]">{description}</p>
+        <button
+          className="px-3 my-2 inline-block py-2 w-full sm:w-fit rounded-lg mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+          onClick={openModal}
+        >
+          Video Promo
+        </button>
       </div>
+
+      {/* Modal for video */}
+      <Modal showModal={showModal} closeModal={closeModal} videoUrl={videoUrl} />
     </div>
   );
 };

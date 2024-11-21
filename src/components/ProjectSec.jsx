@@ -3,6 +3,7 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
+import Modal from '../components/Modal'
 
 const projectsData = [
   {
@@ -13,6 +14,7 @@ const projectsData = [
     tag: ["All", "FullStack"],
     gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
     previewUrl: "http://hammadraza.lovestoblog.com/",
+        videoUrl: "video.mp4", // Add video URL
   },
  
   // {
@@ -23,6 +25,7 @@ const projectsData = [
   //   tag: ["All", "Wordpress"],
   //   gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
   //   previewUrl:"https://practiceproject.wuaze.com/",
+      // videoUrl: "", // Add video URL
   // },
 
   // {
@@ -33,6 +36,7 @@ const projectsData = [
   //   tag: ["All", "Wordpress"],
   //   gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
   //   previewUrl: "http://designprac.infinityfreeapp.com/",
+      // videoUrl: "", // Add video URL
   // },
 
   {
@@ -43,6 +47,7 @@ const projectsData = [
     tag: ["All", "HtmlCss"],
     gitUrl: "https://github.com/HAMMAD123RAZA/beans-bio.git",
     previewUrl: "https://beansbiography.netlify.app/home",
+        videoUrl: "video.mp4", // Add video URL
   },
   {
     id: 7,
@@ -52,6 +57,7 @@ const projectsData = [
     tag: ["All", "React"],
     gitUrl: "https://github.com/HAMMAD123RAZA/web-design.git",
     previewUrl: "https://web-design-henna.vercel.app/",
+        videoUrl: "", // Add video URL
   },
   {
     id: 8,
@@ -60,7 +66,8 @@ const projectsData = [
     image: "/images/projects/bussiness.png",
     tag: ["All", "React Native"],
     gitUrl: "https://github.com/HAMMAD123RAZA/BusinessApp-expo.git",
-    previewUrl: "/",
+    previewUrl: "https://appho.st/d/RmK78mDV",
+        videoUrl: "", // Add video URL
   },
 
   {
@@ -71,6 +78,7 @@ const projectsData = [
     tag: ["All", "FullStack"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Dropify.git",
     previewUrl: "/",
+        videoUrl: "", // Add video URL
   },
   {
     id: 8,
@@ -79,7 +87,8 @@ const projectsData = [
     image: "/images/projects/Meal.png",
     tag: ["All", "React Native"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Recipe_Provider_App.git",
-    previewUrl: "/",
+    previewUrl: "https://appho.st/d/CRRtTM2Q",
+        videoUrl: "", // Add video URL
   },
   {
     id: 6,
@@ -89,6 +98,7 @@ const projectsData = [
     tag: ["All", "FullStack"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Ecommerce-Artshope.git",
     previewUrl: "/",
+        videoUrl: "", // Add video URL
   },
   //  {
   //   id: 7,
@@ -98,6 +108,8 @@ const projectsData = [
   //   tag: ["All", "FullStack"],
   //   gitUrl: "https://github.com/HAMMAD123RAZA/blogApp.git",
   //   previewUrl: "/",
+      // videoUrl: "", // Add video URL
+
   // },
   // {
   //   id: 6,
@@ -107,6 +119,8 @@ const projectsData = [
   //   tag: ["All", "HtmlCss"],
   //   gitUrl: "https://github.com/HAMMAD123RAZA/budget.github.io.git",
   //   previewUrl: "/",
+      // videoUrl: "", // Add video URL
+
   // },
 
   // {
@@ -117,6 +131,8 @@ const projectsData = [
   //   tag: ["All", "FullStack"],
   //   gitUrl: "https://github.com/HAMMAD123RAZA/Gallery-App.git",
   //   previewUrl: "/",
+      // videoUrl: "", // Add video URL
+
   // },
  
  
@@ -128,6 +144,8 @@ const projectsData = [
   //   tag: ["All", "HtmlCss"],
   //   gitUrl: "https://github.com/HAMMAD123RAZA/News-Web.git",
   //   previewUrl: "/",
+      // videoUrl: "", // Add video URL
+
   // },
   {
     id: 4,
@@ -137,6 +155,8 @@ const projectsData = [
     tag: ["All", "React"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Sales-Mui.git",
     previewUrl: "/",
+        videoUrl: "", // Add video URL
+
   },
 
   {
@@ -147,6 +167,8 @@ const projectsData = [
     tag: ["All", "React"],
     gitUrl: "https://github.com/HAMMAD123RAZA/NewsWeb-with-react-.git",
     previewUrl: "/",
+        videoUrl: "", // Add video URL
+
   },
   {
     id: 1,
@@ -156,6 +178,8 @@ const projectsData = [
     tag: ["All", "React"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Discord-Clone.git",
     previewUrl: "/",
+    videoUrl: "", // Add video URL
+
   },
 
   {
@@ -166,18 +190,29 @@ const projectsData = [
     tag: ["All", "FullStack"],
     gitUrl: "https://github.com/HAMMAD123RAZA/survey-form-generator-.git",
     previewUrl: "/",
-  },
- 
+    videoUrl: "", // Add video URL
 
+  },
 ];
 
 const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
+  const [videoUrl, setVideoUrl] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
   const handleTagChange = (newTag) => {
     setTag(newTag);
+  };
+
+  const onVidClick = (url) => {
+    setVideoUrl(url);
+    setIsModalOpen(true); // Open the modal
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false); // Close the modal
   };
 
   const filteredProjects = projectsData.filter((project) =>
@@ -192,30 +227,8 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-secondary-400 mt-4 mb-8 md:mb-12">
-Portfolio Work
+        Portfolio Work
       </h2>
-      {/* <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <ProjectTag
-          onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
-        />
-                <ProjectTag
-          onClick={handleTagChange}
-          name="React"
-          isSelected={tag === "React"}
-        />
-                <ProjectTag
-          onClick={handleTagChange}
-          name="FullStack"
-          isSelected={tag === "FullStack"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="HtmlCss"
-          isSelected={tag === "HtmlCss"}
-        />
-      </div> */}
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
@@ -225,17 +238,21 @@ Portfolio Work
             animate={isInView ? "animate" : "initial"}
             transition={{ duration: 0.3, delay: index * 0.4 }}
           >
-            <ProjectCard
-              key={project.id}
-              title={project.title}
-              description={project.description}
-              imgUrl={project.image}
-              gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
-            />
+<ProjectCard
+  imgUrl={project.image}
+  title={project.title}
+  description={project.description}
+  gitUrl={project.gitUrl}
+  previewUrl={project.previewUrl}
+  videoUrl="/path-to-your-video.mp4" // Add the actual video path here
+/>
           </motion.li>
         ))}
       </ul>
+
+      {isModalOpen && (
+        <Modal videoUrl={videoUrl} onClose={closeModal} />
+      )}
     </section>
   );
 };
