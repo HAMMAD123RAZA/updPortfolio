@@ -74,7 +74,7 @@ const projectsData = [
     id: 8,
     title: "Dropify  (FullStack)",
     description: "Water Management System using Mysql Express  React and Node js Provided authentication  , Add to cart functionality and filtered out the categories , Request Product funtionality via email ",
-    image: "/images/projects/drop.png",
+    image: "/images/projects/dropweb.png",
     tag: ["All", "FullStack"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Dropify.git",
     previewUrl: "/",
