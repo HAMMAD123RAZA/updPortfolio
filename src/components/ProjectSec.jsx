@@ -156,7 +156,6 @@ const projectsData = [
     gitUrl: "https://github.com/HAMMAD123RAZA/Sales-Mui.git",
     previewUrl: "/",
         videoUrl: "", // Add video URL
-
   },
 
   {
@@ -170,17 +169,17 @@ const projectsData = [
         videoUrl: "", // Add video URL
 
   },
-  {
-    id: 1,
-    title: "Discord Clone",
-    description: "Cloned discord UI using react js,tailwind",
-    image: "/images/projects/discord.png",
-    tag: ["All", "React"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/Discord-Clone.git",
-    previewUrl: "/",
-    videoUrl: "", // Add video URL
+  // {
+  //   id: 1,
+  //   title: "Discord Clone",
+  //   description: "Cloned discord UI using react js,tailwind",
+  //   image: "/images/projects/discord.png",
+  //   tag: ["All", "React"],
+  //   gitUrl: "https://github.com/HAMMAD123RAZA/Discord-Clone.git",
+  //   previewUrl: "/",
+  //   videoUrl: "", // Add video URL
 
-  },
+  // },
 
   {
     id: 9,
