@@ -41,6 +41,11 @@ const TAB_DATA = [
     <span className="text-xl">React</span>
 </li>
 <li class="flex items-center">
+    <FaReact  class="mr-1 text-secondary-400"/> 
+    <span className="text-xl">Redux Toolkit</span>
+</li>
+
+<li class="flex items-center">
     <SiExpress  class="mr-1 text-secondary-400"/> 
     <span className="text-xl">Express</span>
 </li>
