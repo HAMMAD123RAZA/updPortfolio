@@ -188,7 +188,7 @@ const projectsData = [
     image: "/images/projects/survey.png",
     tag: ["All", "FullStack"],
     gitUrl: "https://github.com/HAMMAD123RAZA/SurveyFormGenerater.git",
-    previewUrl: "https://survey-form-generater-wfnq.vercel.app/",
+    previewUrl: "https://survey-form-generater-k6jj.vercel.app/",
     videoUrl: "", // Add video URL
   },
 ];
