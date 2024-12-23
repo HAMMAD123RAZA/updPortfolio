@@ -184,7 +184,7 @@ const projectsData = [
   {
     id: 9,
     title: "Survey Form Generator (FullStack) ",
-    description: "Built using Mongodb  Express  React and Node js Where user can enter question and choices . Entered question and choices will be appeared by clicking on view ",
+    description: "Simple full stack CRUD App using Postgresql (Neon Db) ,  Express  React and Node js Where user can enter question and choices . Entered question and choices will be appeared by clicking on view ",
     image: "/images/projects/survey.png",
     tag: ["All", "FullStack"],
     gitUrl: "https://github.com/HAMMAD123RAZA/SurveyFormGenerater.git",
