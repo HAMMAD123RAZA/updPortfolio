@@ -4,116 +4,135 @@ import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 import Modal from '../components/Modal'
-
 const projectsData = [
   {
     id: 8,
+    isShowVideo: true,
     title: "Woocommerce Wordpress ",
     description: "Created a Wordpress ecommerce  website with Woocommerce plugin ",
     image: "/images/projects/ecomm.png",
-    tag: ["All", "FullStack"],
+    tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "http://hammadraza.lovestoblog.com/",
-        videoUrl: "video.mp4", // Add video URL
+      videoUrl: "/vid.mp4", // Add video URL,
+      hasEye: true,
+      
   },
- 
-  
 
   {
     id: 5,
+    
+          isShowVideo: true,
     title: "Bio Graphy",
     description: "Built completely using Bootstrap 5 and used Aos lib for animation ",
     image: "/images/projects/biography.jpg",
-    tag: ["All", "HtmlCss"],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/HAMMAD123RAZA/beans-bio.git",
     previewUrl: "https://beansbiography.netlify.app/home",
+    hasEye: true,
+
         videoUrl: "video.mp4", // Add video URL
   },
   {
     id: 7,
+    
+          isShowVideo: false,
     title: "Web Design ",
     description: "Designed An Animated Web To enhance my react and tailwind skills",
     image: "/images/projects/design.png",
-    tag: ["All", "React"],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/HAMMAD123RAZA/web-design.git",
     previewUrl: "https://web-design-henna.vercel.app/",
+    hasEye: true,
+
         videoUrl: "", // Add video URL
   },
   {
     id: 8,
+    
+          isShowVideo: false,
     title: "Business Family (React Native App )",
     description: "Business Family an application where u can create post in every domain of business like tech , shopping , law , dairy , machines etcTechnologies that were used React native expo , Firebase Native wind (UI) ,  Flat icons , Firebase (Auth) ",
     image: "/images/projects/bussiness.png",
-    tag: ["All", "React Native"],
+    tag: ["All", "Application"],
     gitUrl: "https://github.com/HAMMAD123RAZA/BusinessApp-expo.git",
     previewUrl: "https://appho.st/d/RmK78mDV",
+                hasEye: true,
+
         videoUrl: "", // Add video URL
   },
 
   {
     id: 8,
+    
+          isShowVideo: false,
     title: "Dropify  (FullStack)",
     description: "Water Management System using Mysql Express  React and Node js Provided authentication  , Add to cart functionality and filtered out the categories , Request Product funtionality via email ",
     image: "/images/projects/dropweb.png",
-    tag: ["All", "FullStack"],
+    tag: ["All","All", "FullStack"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Dropify.git",
     previewUrl: "/",
+    hasEye: false,
+
         videoUrl: "", // Add video URL
   },
   {
     id: 8,
+    
+          isShowVideo: true,
     title: "Meals List  (React Native App )",
     description: "A recipe application.where an admin can create recipes on admin side and user can explore them . I've categorized each of the meals . Technologies that were used React native expo ,Firebase ,Native wind (UI) , Flat icons , firebase auth",
     image: "/images/projects/Meal.png",
-    tag: ["All", "React Native"],
+    tag: ["All", "Application"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Recipe_Provider_App.git",
     previewUrl: "https://appho.st/d/CRRtTM2Q",
         videoUrl: "", // Add video URL
+        hasEye: true,
   },
   {
     id: 6,
+    
+          isShowVideo: true,
     title: "ArtShop (FullStack)",
     description: "An Ecommerce Artshop. Provided authentication , pagination , Add to cart functionality and Admin Dashboard with sanity.Built using mern technologies ",
     image: "/images/projects/Artshop.png",
-    tag: ["All", "FullStack"],
+    tag: ["All","All", "FullStack"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Ecommerce-Artshope.git",
     previewUrl: "/",
+    hasEye: false,
+
         videoUrl: "", // Add video URL
   },
  
   {
     id: 4,
+    
+          isShowVideo: true,
     title: "Sales Web",
     description: "Developed Sales website using react js,Material Ui ",
     image: "/images/projects/sales.png",
-    tag: ["All", "React"],
+    tag: ["All","All", "React"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Sales-Mui.git",
     previewUrl: "/",
         videoUrl: "", // Add video URL
   },
 
   {
-    id: 11,
+    id: 11
+    ,
+          isShowVideo: true,
     title: "News Web ",
     description: "Built using React Tailwind css and did api integration using news api . Provided pagination and search functionality and categorized all the news in nav menu ",
     image: "/images/projects/kha.png",
-    tag: ["All", "React"],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/HAMMAD123RAZA/NewsWeb-with-react-.git",
     previewUrl: "/",
         videoUrl: "", // Add video URL
+        hasEye: false,
+
 
   },
- 
-  {
-    id: 9,
-    title: "Survey Form Generator (FullStack) ",
-    description: "Simple full stack CRUD App using Postgresql (Neon Db) ,  Express  React and Node js Where user can enter question and choices . Entered question and choices will be appeared by clicking on view ",
-    image: "/images/projects/survey.png",
-    tag: ["All", "FullStack"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/SurveyFormGenerater.git",
-    previewUrl: "https://survey-form-generater-k6jj.vercel.app/",
-    videoUrl: "", // Add video URL
-  },
+
 ];
 
 const ProjectsSection = () => {
@@ -150,6 +169,18 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-secondary-400 mt-4 mb-8 md:mb-12">
         Portfolio Work
       </h2>
+      <div className="text-white flex flex-row justify-center items-center gap-4 mb-8">
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Web"
+          isSelected={tag === "Web"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Application"
+          isSelected={tag === "Application"}
+        />
+      </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
@@ -165,7 +196,10 @@ const ProjectsSection = () => {
   description={project.description}
   gitUrl={project.gitUrl}
   previewUrl={project.previewUrl}
-  videoUrl="/path-to-your-video.mp4" // Add the actual video path here
+  tags={project.tag}
+  videoUrl={project.videoUrl}
+  isShowVideo={project.isShowVideo}
+  hasEye={project.hasEye}
 />
           </motion.li>
         ))}
