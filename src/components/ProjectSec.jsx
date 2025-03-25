@@ -12,32 +12,12 @@ const projectsData = [
     description: "Created a Wordpress ecommerce  website with Woocommerce plugin ",
     image: "/images/projects/ecomm.png",
     tag: ["All", "FullStack"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
+    gitUrl: "/",
     previewUrl: "http://hammadraza.lovestoblog.com/",
         videoUrl: "video.mp4", // Add video URL
   },
  
-  // {
-  //   id: 10,
-  //   title: "Animated",git 
-  //   description: "An animated Wordpress website with good looking UI Provided using Elementor ",
-  //   image: "/images/projects/animatedwp.png",
-  //   tag: ["All", "Wordpress"],
-  //   gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
-  //   previewUrl:"https://practiceproject.wuaze.com/",
-      // videoUrl: "", // Add video URL
-  // },
-
-  // {
-  //   id: 9,
-  //   title: "Ecommerce Mobile Store",
-  //   description: "Created a mobile selling ecommerce website with Woocommerce plugin ",
-  //   image: "/images/projects/mobile.png",
-  //   tag: ["All", "Wordpress"],
-  //   gitUrl: "https://github.com/HAMMAD123RAZA/todooos.github.io.git",
-  //   previewUrl: "http://designprac.infinityfreeapp.com/",
-      // videoUrl: "", // Add video URL
-  // },
+  
 
   {
     id: 5,
@@ -100,53 +80,7 @@ const projectsData = [
     previewUrl: "/",
         videoUrl: "", // Add video URL
   },
-  //  {
-  //   id: 7,
-  //   title: "Blog",
-  //   description: "Built a Full Stack  Blog Web  with mern technologies . Provided Crud operation and authentication  to enhance my backend skills. Used multer for file uploading",
-  //   image: "/images/projects/mernProject.png",
-  //   tag: ["All", "FullStack"],
-  //   gitUrl: "https://github.com/HAMMAD123RAZA/blogApp.git",
-  //   previewUrl: "/",
-      // videoUrl: "", // Add video URL
-
-  // },
-  // {
-  //   id: 6,
-  //   title: "Budget Web",
-  //   description: "Built using Html Css Js.In this budget web user can fix a date and add monthly expenses and can see overview and can also delete it . ",
-  //   image: "/images/projects/budget.jpg",
-  //   tag: ["All", "HtmlCss"],
-  //   gitUrl: "https://github.com/HAMMAD123RAZA/budget.github.io.git",
-  //   previewUrl: "/",
-      // videoUrl: "", // Add video URL
-
-  // },
-
-  // {
-  //   id: 6,
-  //   title: "Gallery",
-  //   description: "Built a simple Gallery Web with mern technologies to enhance my backend skills. Used multer for file uploading",
-  //   image: "/images/projects/gallery.png",
-  //   tag: ["All", "FullStack"],
-  //   gitUrl: "https://github.com/HAMMAD123RAZA/Gallery-App.git",
-  //   previewUrl: "/",
-      // videoUrl: "", // Add video URL
-
-  // },
  
- 
-  // {
-  //   id: 10,
-  //   title: "News Web ",
-  //   description: "Built using Html Css and Js. Fetched data from an external api for each news",
-  //   image: "/images/projects/news.png",
-  //   tag: ["All", "HtmlCss"],
-  //   gitUrl: "https://github.com/HAMMAD123RAZA/News-Web.git",
-  //   previewUrl: "/",
-      // videoUrl: "", // Add video URL
-
-  // },
   {
     id: 4,
     title: "Sales Web",
@@ -169,18 +103,7 @@ const projectsData = [
         videoUrl: "", // Add video URL
 
   },
-  // {
-  //   id: 1,
-  //   title: "Discord Clone",
-  //   description: "Cloned discord UI using react js,tailwind",
-  //   image: "/images/projects/discord.png",
-  //   tag: ["All", "React"],
-  //   gitUrl: "https://github.com/HAMMAD123RAZA/Discord-Clone.git",
-  //   previewUrl: "/",
-  //   videoUrl: "", // Add video URL
-
-  // },
-
+ 
   {
     id: 9,
     title: "Survey Form Generator (FullStack) ",

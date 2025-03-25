@@ -1,13 +1,20 @@
 import React, { useState } from "react";
-import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
+import { CodeBracketIcon, EyeIcon, VideoCameraIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Modal from '../components/Modal'
 
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, videoUrl }) => {
   const [showModal, setShowModal] = useState(false);
 
-  const openModal = () => setShowModal(true);
-  const closeModal = () => setShowModal(false);
+  const openModal = () => {
+    if (videoUrl) {
+      setShowModal(true);
+    }
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
 
   return (
     <div>
@@ -24,25 +31,29 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, videoUrl 
           </Link>
           <Link
             href={previewUrl}
-            className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+            className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
           >
             <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
           </Link>
+          {videoUrl && (
+            <button
+              onClick={openModal}
+              className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+            >
+              <VideoCameraIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+            </button>
+          )}
         </div>
       </div>
-      <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
+      <div className="text-white rounded-b-xl mt-3 bg-[#181818] py-6 px-4">
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
         <p className="text-[#ADB7BE]">{description}</p>
-        {/* <button
-          className="px-3 my-2 inline-block py-2 w-full sm:w-fit rounded-lg mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
-          onClick={openModal}
-        >
-          Video Promo
-        </button> */}
       </div>
 
       {/* Modal for video */}
-      {/* <Modal showModal={showModal} closeModal={closeModal} videoUrl={videoUrl} /> */}
+      {showModal && videoUrl && (
+        <Modal videoUrl={videoUrl} onClose={closeModal} />
+      )}
     </div>
   );
 };
