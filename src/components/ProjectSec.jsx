@@ -61,12 +61,24 @@ const projectsData = [
 
         videoUrl: "", // Add video URL
   },
+  {
+    id: 8,
+          isShowVideo: true,
+    title: "Dropify  (React Native App )",
+    description: "Water Management System using Mysql Express  React and Node js Provided authentication  , Add to cart functionality and filtered out the categories , Request Product funtionality via email",
+    image: "/images/projects/bussiness.png",
+    tag: ["All", "Application"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/BusinessApp-expo.git",
+                hasEye: false,
+
+        videoUrl: "dropify App Dev.mp4", // Add video URL
+  },
 
   {
     id: 8,
     
-          isShowVideo: false,
-    title: "Dropify  (FullStack)",
+          isShowVideo: true,
+    title: "Dropify (FullStack)",
     description: "Water Management System using Mysql Express  React and Node js Provided authentication  , Add to cart functionality and filtered out the categories , Request Product funtionality via email ",
     image: "/images/projects/dropweb.png",
     tag: ["All","All", "FullStack"],
@@ -129,8 +141,6 @@ const projectsData = [
     previewUrl: "/",
         videoUrl: "", // Add video URL
         hasEye: false,
-
-
   },
 
 ];
