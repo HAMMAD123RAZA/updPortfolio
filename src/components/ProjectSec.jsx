@@ -33,20 +33,20 @@ const projectsData = [
 
         videoUrl: "video.mp4", // Add video URL
   },
-  {
-    id: 7,
+  // {
+  //   id: 7,
     
-          isShowVideo: false,
-    title: "Web Design ",
-    description: "Designed An Animated Web To enhance my react and tailwind skills",
-    image: "/images/projects/design.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/web-design.git",
-    previewUrl: "https://web-design-henna.vercel.app/",
-    hasEye: true,
+  //         isShowVideo: false,
+  //   title: "Web Design ",
+  //   description: "Designed An Animated Web To enhance my react and tailwind skills",
+  //   image: "/images/projects/design.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "https://github.com/HAMMAD123RAZA/web-design.git",
+  //   previewUrl: "https://web-design-henna.vercel.app/",
+  //   hasEye: true,
 
-        videoUrl: "", // Add video URL
-  },
+  //       videoUrl: "", // Add video URL
+  // },
   {
     id: 8,
     
