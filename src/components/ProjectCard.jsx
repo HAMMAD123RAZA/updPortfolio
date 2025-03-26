@@ -49,8 +49,8 @@ const ProjectCard = ({ hasEye,imgUrl, title, description, gitUrl, previewUrl, vi
         </div>
       </div>
       <div className="text-white rounded-b-xl mt-3 bg-[#181818] py-6 px-4">
-        <h5 className="text-xl font-semibold mb-2">{title}</h5>
-        <p className="text-[#ADB7BE]">{description}</p>
+        <h5 className="md:text-xl text-lg  font-semibold mb-2">{title}</h5>
+        <p className="text-[#ADB7BE] text-sm md:text-lg">{description}</p>
       </div>
 
       {showModal && videoUrl && (
