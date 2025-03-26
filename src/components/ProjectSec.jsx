@@ -7,7 +7,7 @@ import Modal from '../components/Modal'
 const projectsData = [
   {
     id: 8,
-    isShowVideo: true,
+    isShowVideo: false,
     title: "Woocommerce Wordpress ",
     description: "Created a Wordpress ecommerce  website with Woocommerce plugin ",
     image: "/images/projects/ecomm.png",
@@ -22,7 +22,7 @@ const projectsData = [
   {
     id: 5,
     
-          isShowVideo: true,
+          isShowVideo: false,
     title: "Bio Graphy",
     description: "Built completely using Bootstrap 5 and used Aos lib for animation ",
     image: "/images/projects/biography.jpg",
@@ -66,12 +66,12 @@ const projectsData = [
           isShowVideo: true,
     title: "Dropify  (React Native App )",
     description: "Water Management System using Mysql Express  React and Node js Provided authentication  , Add to cart functionality and filtered out the categories , Request Product funtionality via email",
-    image: "/images/projects/bussiness.png",
+    image: "/images/projects/drop.png",
     tag: ["All", "Application"],
     gitUrl: "https://github.com/HAMMAD123RAZA/BusinessApp-expo.git",
                 hasEye: false,
 
-        videoUrl: "dropify App Dev.mp4", // Add video URL
+        videoUrl: "/dropify App Dev.mp4", // Add video URL
   },
 
   {
@@ -81,17 +81,17 @@ const projectsData = [
     title: "Dropify (FullStack)",
     description: "Water Management System using Mysql Express  React and Node js Provided authentication  , Add to cart functionality and filtered out the categories , Request Product funtionality via email ",
     image: "/images/projects/dropweb.png",
-    tag: ["All","All", "FullStack"],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Dropify.git",
     previewUrl: "/",
     hasEye: false,
 
-        videoUrl: "", // Add video URL
+        videoUrl: "/dropifyWeb.mp4", // Add video URL
   },
   {
     id: 8,
     
-          isShowVideo: true,
+          isShowVideo: false,
     title: "Meals List  (React Native App )",
     description: "A recipe application.where an admin can create recipes on admin side and user can explore them . I've categorized each of the meals . Technologies that were used React native expo ,Firebase ,Native wind (UI) , Flat icons , firebase auth",
     image: "/images/projects/Meal.png",
@@ -108,26 +108,15 @@ const projectsData = [
     title: "ArtShop (FullStack)",
     description: "An Ecommerce Artshop. Provided authentication , pagination , Add to cart functionality and Admin Dashboard with sanity.Built using mern technologies ",
     image: "/images/projects/Artshop.png",
-    tag: ["All","All", "FullStack"],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/HAMMAD123RAZA/Ecommerce-Artshope.git",
     previewUrl: "/",
     hasEye: false,
 
-        videoUrl: "", // Add video URL
+        videoUrl: "/ArtShop.mp4", // Add video URL
   },
  
-  {
-    id: 4,
-    
-          isShowVideo: true,
-    title: "Sales Web",
-    description: "Developed Sales website using react js,Material Ui ",
-    image: "/images/projects/sales.png",
-    tag: ["All","All", "React"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/Sales-Mui.git",
-    previewUrl: "/",
-        videoUrl: "", // Add video URL
-  },
+
 
   {
     id: 11
@@ -139,7 +128,7 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/HAMMAD123RAZA/NewsWeb-with-react-.git",
     previewUrl: "/",
-        videoUrl: "", // Add video URL
+        videoUrl: "/readify.mp4", // Add video URL
         hasEye: false,
   },
 
