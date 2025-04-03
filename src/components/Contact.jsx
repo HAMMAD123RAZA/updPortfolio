@@ -4,6 +4,11 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
+
+  const handleContact=()=>{
+    
+  }
+
   return (
     <>
       <section className='grid md:grid-cols-2 text-white gap-4 my-10' id="contact">
@@ -56,6 +61,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
+              onClick={handleContact}
               className="bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
             >
               Send Message

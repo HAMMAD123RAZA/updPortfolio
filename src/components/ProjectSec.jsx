@@ -19,20 +19,20 @@ const projectsData = [
       
   },
 
-  {
-    id: 5,
+  // {
+  //   id: 5,
     
-          isShowVideo: false,
-    title: "Bio Graphy",
-    description: "Built completely using Bootstrap 5 and used Aos lib for animation ",
-    image: "/images/projects/biography.jpg",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/beans-bio.git",
-    previewUrl: "https://beansbiography.netlify.app/home",
-    hasEye: true,
+  //         isShowVideo: false,
+  //   title: "Bio Graphy",
+  //   description: "Built completely using Bootstrap 5 and used Aos lib for animation ",
+  //   image: "/images/projects/biography.jpg",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "https://github.com/HAMMAD123RAZA/beans-bio.git",
+  //   previewUrl: "https://beansbiography.netlify.app/home",
+  //   hasEye: true,
 
-        videoUrl: "video.mp4", // Add video URL
-  },
+  //       videoUrl: "video.mp4", // Add video URL
+  // },
   // {
   //   id: 7,
     
