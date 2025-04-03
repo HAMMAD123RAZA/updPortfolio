@@ -3,7 +3,7 @@ import { CodeBracketIcon, EyeIcon, VideoCameraIcon } from "@heroicons/react/24/o
 import Link from "next/link";
 import Modal from '../components/Modal'
 
-const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, videoUrl }) => {
+const ProjectCard = ({ hasEye,imgUrl, title, description, gitUrl, previewUrl, videoUrl, isShowVideo }) => {
   const [showModal, setShowModal] = useState(false);
 
   const openModal = () => {
@@ -29,13 +29,16 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, videoUrl 
           >
             <CodeBracketIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
           </Link>
-          <Link
-            href={previewUrl}
-            className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
-          >
-            <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
-          </Link>
-          {videoUrl && (
+          {hasEye && (
+  <Link
+  href={previewUrl}
+  className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+>
+  <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+</Link>
+          )}
+       
+          {isShowVideo && (
             <button
               onClick={openModal}
               className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
@@ -46,11 +49,10 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, videoUrl 
         </div>
       </div>
       <div className="text-white rounded-b-xl mt-3 bg-[#181818] py-6 px-4">
-        <h5 className="text-xl font-semibold mb-2">{title}</h5>
-        <p className="text-[#ADB7BE]">{description}</p>
+        <h5 className="md:text-xl text-lg  font-semibold mb-2">{title}</h5>
+        <p className="text-[#ADB7BE] text-sm md:text-lg">{description}</p>
       </div>
 
-      {/* Modal for video */}
       {showModal && videoUrl && (
         <Modal videoUrl={videoUrl} onClose={closeModal} />
       )}
