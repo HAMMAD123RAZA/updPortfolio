@@ -38,7 +38,7 @@ const projectsData = [
     
   //         isShowVideo: false,
   //   title: "Web Design ",
-  //   description: "Designed An Animated Web To enhance my react and tailwind skills",
+  //   description: "Designed An Animated Web To enhance my react and tailwind skill",
   //   image: "/images/projects/design.png",
   //   tag: ["All", "Web"],
   //   gitUrl: "https://github.com/HAMMAD123RAZA/web-design.git",
