@@ -59,7 +59,6 @@ const projectsData = [
     previewUrl: "https://appho.st/d/RmK78mDV",
                 hasEye: true,
 
-        videoUrl: "", // Add video URL
   },
   {
     id: 8,
