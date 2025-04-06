@@ -93,7 +93,7 @@ const projectsData = [
           isShowVideo: true,
     title: "Evento (FullStack)",
     description: "Event Management System using postgreSql  Express  React and Node js Provided seperate admin panel for managing and creating events and users , used framer motion for animation , given out email verification flow and  filtered out the categories  ",
-    image: "/images/projects/dropweb.png",
+    image: "/images/projects/evento.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/HAMMAD123RAZA/evento.git",
     previewUrl: "/",
