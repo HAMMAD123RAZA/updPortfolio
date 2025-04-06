@@ -90,6 +90,20 @@ const projectsData = [
   {
     id: 8,
     
+          isShowVideo: true,
+    title: "Evento (FullStack)",
+    description: "Event Management System using postgreSql  Express  React and Node js Provided seperate admin panel for managing and creating events and users , used framer motion for animation , given out email verification flow and  filtered out the categories  ",
+    image: "/images/projects/dropweb.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/evento.git",
+    previewUrl: "/",
+    hasEye: false,
+
+        videoUrl: "/eventoWeb.mp4", // Add video URL
+  },
+  {
+    id: 8,
+    
           isShowVideo: false,
     title: "Meals List  (React Native App )",
     description: "A recipe application.where an admin can create recipes on admin side and user can explore them . I've categorized each of the meals . Technologies that were used React native expo ,Firebase ,Native wind (UI) , Flat icons , firebase auth",
