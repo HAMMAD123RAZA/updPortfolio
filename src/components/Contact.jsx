@@ -5,9 +5,6 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
 
-  const handleContact=()=>{
-    
-  }
 
   return (
     <>
@@ -61,7 +58,6 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              onClick={handleContact}
               className="bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
             >
               Send Message
