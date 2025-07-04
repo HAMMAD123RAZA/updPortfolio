@@ -73,20 +73,21 @@ const projectsData = [
         videoUrl: "/dropify App Dev.mp4", // Add video URL
   },
 
-  {
-    id: 8,
-    
+    {
+    id: 11
+    ,
           isShowVideo: true,
-    title: "Dropify (FullStack)",
-    description: "Water Management System using Mysql Express  React and Node js Provided authentication  , Add to cart functionality and filtered out the categories , Request Product funtionality via email ",
-    image: "/images/projects/dropweb.png",
+    title: "E-commerce SportsWear",
+    description: "A platform for buying and selling sports outfit featuring admin and vendor dashboards, real-time chat, and Stripe payments. Admins approve vendor products and integrated openAi Api for blog generation in admin dashboard.",
+    image: "/images/projects/sportsWear.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/Dropify.git",
+    gitUrl: "/",
     previewUrl: "/",
-    hasEye: false,
-
-        videoUrl: "/dropifyWeb.mp4", // Add video URL
+        videoUrl: "/SportsWear.mp4", 
+        hasEye: false,
   },
+
+  
   {
     id: 8,
     
@@ -103,8 +104,7 @@ const projectsData = [
   },
   {
     id: 8,
-    
-          isShowVideo: false,
+    isShowVideo: false,
     title: "Meals List  (React Native App )",
     description: "A recipe application.where an admin can create recipes on admin side and user can explore them . I've categorized each of the meals . Technologies that were used React native expo ,Firebase ,Native wind (UI) , Flat icons , firebase auth",
     image: "/images/projects/Meal.png",
@@ -113,6 +113,20 @@ const projectsData = [
     previewUrl: "https://appho.st/d/CRRtTM2Q",
         videoUrl: "", // Add video URL
         hasEye: true,
+  },
+  {
+    id: 8,
+    
+          isShowVideo: true,
+    title: "Dropify (FullStack)",
+    description: "Water Management System using Mysql Express  React and Node js Provided authentication  , Add to cart functionality and filtered out the categories , Request Product funtionality via email ",
+    image: "/images/projects/dropweb.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/HAMMAD123RAZA/Dropify.git",
+    previewUrl: "/",
+    hasEye: false,
+
+        videoUrl: "/dropifyWeb.mp4", // Add video URL
   },
   {
     id: 6,
@@ -131,20 +145,7 @@ const projectsData = [
  
 
 
-  {
-    id: 11
-    ,
-          isShowVideo: true,
-    title: "News Web ",
-    description: "Built using React Tailwind css and did api integration using news api . Provided pagination and search functionality and categorized all the news in nav menu ",
-    image: "/images/projects/kha.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/HAMMAD123RAZA/NewsWeb-with-react-.git",
-    previewUrl: "/",
-        videoUrl: "/readify.mp4", // Add video URL
-        hasEye: false,
-  },
-
+ 
 ];
 
 const ProjectsSection = () => {
