@@ -6,7 +6,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
+import { SiExpress, SiOpenai } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { DiBootstrap } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
@@ -76,6 +76,10 @@ const TAB_DATA = [
 <li class="flex items-center">
     <FaWordpressSimple size={21 } class="mr-2 text-secondary-400"/> 
     <span className="text-xl">Wordpress</span>
+</li>
+<li class="flex items-center">
+    <SiOpenai size={21 } class="mr-2 text-secondary-400"/> 
+    <span className="text-xl">Ai Api's </span>
 </li>
       </ul>
     ),
