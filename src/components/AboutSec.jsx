@@ -79,7 +79,7 @@ const TAB_DATA = [
 </li>
 <li class="flex items-center">
     <SiOpenai size={21 } class="mr-2 text-secondary-400"/> 
-    <span className="text-xl">Ai Api's </span>
+    <span className="text-xl">Ai Apis </span>
 </li>
       </ul>
     ),
